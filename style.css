@@ -10,11 +10,16 @@
     --main-color: #0b65c2;
 }
 
+html, body {
+    overflow-x: hidden;
+  }
+
 body {
     background-color: #f3f2ee;
     font-family: "Noto Sans JP", sans-serif;
     font-weight: 300;
-    width: 100vw;
+    position: relative
+
 }
 
 .container {
@@ -358,12 +363,6 @@ span {
 
 
 @media screen and (max-width:700px) {
-    html, body {
-        overflow-x: hidden;
-      }
-      body {
-        position: relative
-      }
 
     .container {
         width: 95%;
@@ -372,11 +371,16 @@ span {
     .logo-search {
         margin: 0 15px;
         width: 95%;
-        justify-content: space-around;
+        justify-content: center;
+        gap: 20px
     }
 
     .icons span {
         font-size: 28px;
+    }
+
+    .work-info {
+        margin-right: 10px;
     }
 
     .exp-img {
