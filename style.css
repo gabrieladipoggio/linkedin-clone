@@ -358,6 +358,13 @@ span {
 
 
 @media screen and (max-width:700px) {
+    html, body {
+        overflow-x: hidden;
+      }
+      body {
+        position: relative
+      }
+
     .container {
         width: 95%;
     }
@@ -369,10 +376,10 @@ span {
     }
 
     .icons span {
-        font-size: 36px;
+        font-size: 28px;
     }
 
     .exp-img {
-        margin-right: 15px;
+        margin-right: 25px;
     }
 }
