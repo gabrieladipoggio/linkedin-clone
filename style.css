@@ -14,6 +14,7 @@ body {
     background-color: #f3f2ee;
     font-family: "Noto Sans JP", sans-serif;
     font-weight: 300;
+    width: 100vw;
 }
 
 .container {
@@ -361,5 +362,17 @@ span {
         width: 95%;
     }
 
+    .logo-search {
+        margin: 0 15px;
+        width: 95%;
+        justify-content: space-around;
+    }
 
+    .icons span {
+        font-size: 36px;
+    }
+
+    .exp-img {
+        margin-right: 15px;
+    }
 }
