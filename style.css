@@ -371,20 +371,15 @@ span {
     .logo-search {
         margin: 0 15px;
         width: 95%;
-        justify-content: center;
-        gap: 20px
+        justify-content: space-evenly;
     }
 
     .icons span {
         font-size: 28px;
     }
 
-    .work-info {
+    .work-info, .buttons button {
         margin-right: 10px;
-    }
-
-    .buttons{
-        gap: 10px;
     }
 
     .exp-img {
