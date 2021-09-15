@@ -271,7 +271,7 @@ section h3 {
 
 .exp-info {
     display: flex;
-    gap: 45px;
+    gap: 25px;
 }
 
 .exp-txt {
@@ -381,6 +381,10 @@ span {
 
     .work-info {
         margin-right: 10px;
+    }
+
+    .buttons{
+        gap: 10px;
     }
 
     .exp-img {
