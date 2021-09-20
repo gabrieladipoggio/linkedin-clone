@@ -103,9 +103,6 @@ input {
     font-size: 12px;
 }
 
-.icons ul li:last-child {
-    margin-left: 2rem;
-}
 
 .icons ul li a:hover {
     color: #000;
